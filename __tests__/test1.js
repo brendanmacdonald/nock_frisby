@@ -1,7 +1,6 @@
 const frisby = require('frisby');
 var nock = require('nock');
 const config = require('./config.json');
-const Joi = frisby.Joi;
 
 // Nock will supply a default reply for all requests to http://localhost:3000/customers/1.
 // Nock will override what is actually on ../customers/1.
