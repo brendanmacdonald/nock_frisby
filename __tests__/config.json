@@ -1,4 +1,4 @@
 {
-    "baseURL": "http://localhost:3000",
-    "customerPath": "/customers/"
+    "baseURL": "http://some-end-point:3000",
+    "path": "/users/"
 }
